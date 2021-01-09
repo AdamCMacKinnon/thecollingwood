@@ -7,7 +7,7 @@ app.use(express.static('public'))
 
 //routes
 
-
+app.use(require('./routes/index'))
 
 //server
 app.listen(3000, () => {

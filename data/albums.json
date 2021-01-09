@@ -1,6 +1,6 @@
-
-[{
-    "shortname": "TheCollingwood",
+{
+"albums":[{
+    "shortname": "sylvester",
     "album": "Sylvester to the Bzz Myapp Accompaniment",
     "artwork": ["sylvester.jpg"],
     "tracklist": "1. Pocket<br>2. Paul Stanley<br>3. NNNN Jump Through Windows",
@@ -9,22 +9,22 @@
     "bandcamp": "https://thecollingwood.bandcamp.com/album/sylvester-to-the-bzz-myapp-accompaniment",
     "spotify": "https://open.spotify.com/album/0BykCNqxCMhk07Z0Q2DHeL?si=L3Q-FHE2Q7yoqTayD3g9mg"
 },{
-    "shortname": "TheCollingwood",
+    "shortname": "pitterpatter",
     "album": "The Pitter-Patter of Little Everything",
     "artwork": ["pitterpatter.jpg"],
     "tracklist": "1. F*ck Yeah, Hollywood (Buongiorno, Denise Richards)<br>2. Blossom, Being the Quickest, Most Viscous Route<br>3. Even the Black Lamb Tuckers<br>4. Poor Man's Potter<br>5. Birthday Cut",
-    
     "summary": "Seven years after the release of their debut album, The Collingwood released what many considered to be their most complete work ever.  The Pitter-Patter of Little Everything still embodied the signature Collingwood sound, featuring long (the shortest song being over 7 minutes), cinematic like songs that modulate between complex ballads (like in 'Poor Mans Potter'), to dance-able classic funk vibes ('Even the Black Lamb Tuckers').  This also featured the bands first music video for the single 'F*ck Yeah, Hollywood'.   Pitter-Patter is easily their most recognizable work to date, thanks to extensive live playing in support of it.",
     
     "bandcamp": "https://thecollingwood.bandcamp.com/album/the-pitter-patter-of-little-everything"
 },{
-    "shortname": "TheCollingwood",
+    "shortname": "tide",
     "album": "Yes, Your Tide is Cold and Dark, Sir:  Soundtrack and Score",
     "artwork": ["tide.jpg"],
-    "tracklist": "1. Rozwiazania<br>2. White Deer<br>3. Henlopen<br>4. Life in Ricochet<br>5. These Guys Look Like they Have Razor Blades<br>6. The Doogie Miller Story(Score)<br>7. You Have a Son(Score)<br>8.Watch Me for a Spell(Score)<br>9.Love Sometimes(score)<br>10.Caretakers of Unworthy Men(Score)<br>11. I Found the Boy(Score)<br>12. Do It for Santa(Score)<br>13. Cradling Winter's Fern(Score)",
+    "tracklist": "1. Rozwiazania 2. White Deer 3. Henlopen 4. Life in Ricochet 5. These Guys Look Like they Have Razor Blades 6. The Doogie Miller Story(Score) 7. You Have a Son(Score) 8.Watch Me for a Spell(Score) 9.Love Sometimes(score) 10.Caretakers of Unworthy Men(Score) 11. I Found the Boy(Score) 12. Do It for Santa(Score) 13. Cradling Winter's Fern(Score)",
     "summary": "With the release of Malinowski's latest feature film 'Yes, Your Tide is Cold and Dark, Sir' in 2014, The Collingwood released some new songs to accompany the score to the film.  Followers of the band recognized many of the songs from live shows, but now they had studio recordings to go with them.  While this set features their shortest songs (the longest clocking in at just over 6 minutes), it also shows off their versatility, from the heavier 'Life in Ricochet' to the chill-enducing 'Rozwianzania', complete with orchestral strings.  The track list is rounded out with songs from the movie itself, and completes the mood of their latest offering.",
     "bandcamp": "https://thecollingwood.bandcamp.com/album/yes-your-tide-is-cold-and-dark-sir-soundtrack-and-score",
     "spotify": "https://open.spotify.com/album/7AxZqB6PaeJv5dIG8FfTh7?si=od9kVDlFQAKhPBQ3BNkDVA"
 }]
+}
 
 
