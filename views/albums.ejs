@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <%- include('partials/template/headers.ejs') %>
+    </head>
+    <body>
+    <div class="rowlight">
+           <% albums.forEach(album => { %>
+           <h3 class="albumtitle"><%= album.album %> </h3>
+          
+          <img class="artwork" src="/images/<%= album.artwork %> " alt=""> 
+          <ol>
+            <% for( let i = 0; i < album.tracklist.length; i++ ) { %>
+            <li><%= album.tracklist[i] %></li>
+            <% } %>
+          </ol>
+        <br>
+    
+          <p><%= album.summary %> </p>
+          <% }) %> 
+      </div>
+<%- include('partials/template/JSdefault.ejs')  %>
+  </body>
+</html>

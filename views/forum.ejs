@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/template/headers.ejs') %>
+</head>
+
+<body>
+
+<div class="forum">
+    <div id="comments">
+
+    </div>
+
+    <h1 class="form">Forum</h1>
+
+    <form class="form" action="">
+        Name<br> 
+        <input type="text"  id="name"><br>
+        Message<br>
+        <textarea cols="30" rows="5"  id="message"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+
+   
+
+</div>
+
+    <script>
+        let form = document.querySelector('form');
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            fetch('/forum', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    name: document.querySelector('#name').value,
+                    message: document.querySelector('#message').value
+                })
+                
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+                let comments = document.querySelector('#comments')
+                comments.innerHTML += `<b>${data.name}</b> <br>${data.message}<br>`
+            })
+        })
+
+    </script>
+        <%- include('partials/template/JSdefault.ejs')  %>
+</body>
+
+</html>

@@ -1,6 +1,4 @@
-.body {
-    background-color: rgb(216, 213, 213);
-}
+
 .header {
     height: 300px;
     width: 100%;
@@ -44,13 +42,46 @@
     margin-top: 20px;
 }
 .rowlight {
-    height: 400px;
+    background-color: lightgray;
+    height: 100%;
     width: 100%;
-    margin-left: 10px;
+
 }
 .artwork {
-    padding: 5px;
-    height: 250px;
+    margin-top: 15px;
+    padding: 10px;
+    height: 400px;
     width: auto;
 
+}
+.albumtitle {
+    float: right;
+    margin-top: 200px;
+    margin-right: 50px;
+
+}
+
+#comments {
+    display:block;
+    float: right;
+    font-weight: bold;
+    margin-right: 400px;
+    padding: 5px;
+
+}
+
+.forum{
+    background-color: lightgray;
+
+
+}
+.form {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chatbox {
+    margin-left: 10px;
+    padding-top: 10px;
 }

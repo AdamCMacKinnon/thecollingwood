@@ -1,0 +1,32 @@
+<head>
+    <%- include('partials/template/headers.ejs') %> 
+</head>
+<body>
+    <div class="rowlight">
+    <form class="chatbox">
+        NAME: <input type="text"><br><br>
+        CHAT: <textarea name="chat" id="chat" cols="30" rows="5"></textarea>
+        <input type="submit">
+    </form>
+    <ul id="messages">
+
+    </ul>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script>
+        const socket = io();
+        let form = document.querySelector('form');
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            let chat = document.querySelector('#chat');
+            socket.emit('msgFromClient', chat.value);
+        })
+        socket.on('msgFromServer', (serverMessage)=>{
+            let messages = document.querySelector('#messages');
+            let liTags = `<li>${serverMessage}</li>` + messages.innerHTML; 
+            messages.innerHTML = liTags;
+        })
+    </script>
+<%- include('partials/template/JSdefault.ejs') %> 
+</body>
